@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%)
+  }
+.container {
+    background-color: hsl(0, 0%, 100%);
+    width: 666px;
+    display: flex;  
+    
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 50px;
+    border-radius: 10px;
+    
+    
+    /* border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; */
+    
+    
+  }
+  .container> img {
+    width: 50%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+   
+  }
+
+  .perfume{
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 3px;
+    margin-top: 10px;
+    font-family:'Montserrat';
+    font-size: 14px;
+    margin-bottom: 1.75rem;
+  }
+  
+  .description{
+    color:hsl(228, 12%, 48%);
+    font-family:'Montserrat';
+    font-size: 14px;
+    line-height: 22px; 
+    margin-bottom: 1.75rem;
+    
+  }
+
+  .button{
+    width: 100%;
+    border: 0;
+    padding: 1rem 2.5rem;
+     display:flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+  }
+
+  .price_container{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1.75rem;
+    
+  }
+
+  .current_price{
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+
+  }
+
+  .previous_price{
+    color:hsl(228, 12%, 48%);
+    text-decoration: line-through;
+  }
+
+  .name{
+    font-family: 'Fraunces', serif;
+    margin-bottom: 1.75rem;
+    
+
+  }
+
+  .details{
+    margin: 10px 50px 30px; 
+    padding: 2 rem;
+    width: 50%;
+  }
+
+  .button>img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .button:hover{
+    background-color: hsl(212,21%,14%);
+  }
